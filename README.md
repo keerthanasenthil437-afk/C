@@ -1,22 +1,96 @@
-\# Tic Tac Toe in C 🎮
+\# C Projects Collection 💻
 
 
 
-A simple console-based Tic Tac Toe game written in C.
+This repository contains multiple C programming projects developed as part of learning and practice.
 
 
 
-\## 📌 Features
+\---
+
+
+
+\## 📁 Projects Included
+
+
+
+\### 🎮 Tic Tac Toe
+
+
+
+A simple console-based Tic Tac Toe game.
+
+
+
+\*\*Features:\*\*
 
 
 
 \* Two-player mode
 
-\* 3x3 game board
+\* 3x3 board
 
-\* Input validation
+\* Win/draw detection
 
-\* Win and draw detection
+
+
+\*\*Run:\*\*
+
+
+
+```
+
+cd tic-tac-toe
+
+gcc tictactoe.c -o game
+
+.\\game
+
+```
+
+
+
+\---
+
+
+
+\### 🐍 Snake Game
+
+
+
+A basic snake game implemented in C.
+
+
+
+\*\*Features:\*\*
+
+
+
+\* Snake movement
+
+\* Food generation
+
+\* Score tracking
+
+
+
+\*\*Run:\*\*
+
+
+
+```
+
+cd snake-game
+
+gcc snake.c -o snake
+
+.\\snake
+
+```
+
+
+
+\---
 
 
 
@@ -26,39 +100,11 @@ A simple console-based Tic Tac Toe game written in C.
 
 \* C Programming
 
-\* Console (Terminal)
+\* GCC Compiler
 
 
 
-\## ▶️ How to Run
-
-
-
-\### Compile:
-
-
-
-```
-
-gcc tictactoe.c -o game
-
-```
-
-
-
-\### Run:
-
-
-
-```
-
-./game
-
-```
-
-
-
-\*(On Windows use: `game.exe`)\*
+\---
 
 
 
@@ -70,13 +116,21 @@ gcc tictactoe.c -o game
 
 tic-tac-toe-c
 
-&#x20;├── tictactoe.c
+&#x20;├── tic-tac-toe
 
-&#x20;├── README.md
+&#x20;│    └── tictactoe.c
 
-&#x20;└── .gitignore
+&#x20;├── snake-game
+
+&#x20;│    └── snake.c
+
+&#x20;└── README.md
 
 ```
+
+
+
+\---
 
 
 
@@ -84,11 +138,15 @@ tic-tac-toe-c
 
 
 
-\* Add computer opponent (AI)
+\* Add AI to Tic Tac Toe
 
-\* Improve UI
+\* Improve Snake game UI
 
-\* Add score tracking
+\* Add levels and scoring system
+
+
+
+\---
 
 
 
