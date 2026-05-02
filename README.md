@@ -1,160 +1,62 @@
-\# C Projects Collection 💻
+# 💻 C Console Games
 
+This repository contains simple console-based games developed using C programming.
 
+---
 
-This repository contains multiple C programming projects developed as part of learning and practice.
+## 🎮 Projects Included
 
+### 🐍 Snake Game
+- Console-based snake game
+- Uses keyboard input
+- Score tracking system
 
+### ❌ Tic Tac Toe
+- Two player game
+- Uses 2D arrays
+- Win/draw logic implementation
 
-\---
+---
 
+## 🛠️ Technologies Used
+- C Programming
+- GCC Compiler
+- Basic Data Structures (Arrays)
 
+---
 
-\## 📁 Projects Included
+## 🎯 Concepts Used
+- Arrays
+- Functions
+- Loops
+- Conditional Statements
+- Game Logic Design
 
+---
 
+## 🚀 How to Run
 
-\### 🎮 Tic Tac Toe
+### Compile:
+gcc snake.c -o snake  
+gcc tictactoe.c -o tictactoe  
 
+### Run:
+./snake  
+./tictactoe  
 
+---
 
-A simple console-based Tic Tac Toe game.
+## 💡 Learning Outcome
+This project helped improve logic building, problem solving, and understanding of C programming fundamentals.
 
+---
 
+## 📫 Contact
+- Email: keerthanasenthil437@gmail.com  
+- GitHub: https://github.com/keerthanasenthil437-afk
+- Linkedin: https://linkedin.com/in/keerthanasenthilkumar6
 
-\*\*Features:\*\*
-
-
-
-\* Two-player mode
-
-\* 3x3 board
-
-\* Win/draw detection
-
-
-
-\*\*Run:\*\*
-
-
-
-```
-
-cd tic-tac-toe
-
-gcc tictactoe.c -o game
-
-.\\game
-
-```
-
-
-
-\---
-
-
-
-\### 🐍 Snake Game
-
-
-
-A basic snake game implemented in C.
-
-
-
-\*\*Features:\*\*
-
-
-
-\* Snake movement
-
-\* Food generation
-
-\* Score tracking
-
-
-
-\*\*Run:\*\*
-
-
-
-```
-
-cd snake-game
-
-gcc snake.c -o snake
-
-.\\snake
-
-```
-
-
-
-\---
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\* C Programming
-
-\* GCC Compiler
-
-
-
-\---
-
-
-
-\## 📂 Project Structure
-
-
-
-```
-
-tic-tac-toe-c
-
-&#x20;├── tic-tac-toe
-
-&#x20;│    └── tictactoe.c
-
-&#x20;├── snake-game
-
-&#x20;│    └── snake.c
-
-&#x20;└── README.md
-
-```
-
-
-
-\---
-
-
-
-\## 🚀 Future Improvements
-
-
-
-\* Add AI to Tic Tac Toe
-
-\* Improve Snake game UI
-
-\* Add levels and scoring system
-
-
-
-\---
-
-
-
-\## 👩‍💻 Author
-
-
-
-Keerthana Senthilkumar
-
-
-
+---
+## 👩‍💻 Author
+**Keerthana Senthilkumar**
+ 
